@@ -115,8 +115,8 @@ function Login({ onLogin }) {
       ))}
       <div style={{ background:"rgba(255,255,255,0.04)", backdropFilter:"blur(24px)", border:"1px solid rgba(200,168,75,0.2)", borderRadius:"22px", padding:"44px 40px", width:"100%", maxWidth:"400px" }}>
         <div style={{ textAlign:"center", marginBottom:"36px" }}>
-          <div style={{ fontFamily:"Playfair Display,serif", fontSize:"24px", color:C.gold, letterSpacing:"3px", fontWeight:"700" }}>CONCIERGERIE</div>
-          <div style={{ color:"rgba(255,255,255,0.3)", fontSize:"10px", letterSpacing:"5px", marginTop:"4px" }}>CÔTE D'AZUR</div>
+          <div style={{ fontFamily:"Playfair Display,serif", fontSize:"20px", color:C.gold, letterSpacing:"2px", fontWeight:"700" }}>CC COZY HOST</div>
+          <div style={{ color:"rgba(255,255,255,0.3)", fontSize:"10px", letterSpacing:"5px", marginTop:"4px" }}>CONCIERGERIE</div>
           <div style={{ width:"40px", height:"1px", background:`linear-gradient(90deg,transparent,${C.gold},transparent)`, margin:"18px auto 0" }} />
         </div>
         {!sel ? (
@@ -176,8 +176,8 @@ function Shell({ children, user, tab, setTab, onLogout, msgCount }) {
         {/* Header mobile */}
         <div style={{ background:C.navy, padding:"14px 18px", display:"flex", alignItems:"center", justifyContent:"space-between", position:"sticky", top:0, zIndex:100 }}>
           <div>
-            <div style={{ fontFamily:"Playfair Display,serif", color:C.gold, fontSize:"14px", fontWeight:"700", letterSpacing:"2px" }}>CONCIERGERIE</div>
-            <div style={{ fontSize:"10px", color:"rgba(255,255,255,0.4)", marginTop:"1px" }}>{user.name}</div>
+            <div style={{ fontFamily:"Playfair Display,serif", color:C.gold, fontSize:"13px", fontWeight:"700", letterSpacing:"1px" }}>CC COZY HOST</div>
+            <div style={{ fontSize:"10px", color:"rgba(255,255,255,0.4)", marginTop:"1px" }}>CONCIERGERIE · {user.name}</div>
           </div>
           <button onClick={onLogout} style={{ background:"none", border:"1px solid rgba(255,255,255,0.15)", borderRadius:"8px", color:"rgba(255,255,255,0.5)", cursor:"pointer", fontSize:"12px", fontFamily:"inherit", padding:"6px 12px" }}>
             🚪 Sortir
@@ -205,8 +205,8 @@ function Shell({ children, user, tab, setTab, onLogout, msgCount }) {
     <div style={{ display:"flex", minHeight:"100vh", fontFamily:"DM Sans,sans-serif", background:C.cream }}>
       <aside style={{ width:"228px", minWidth:"228px", background:C.navy, display:"flex", flexDirection:"column", position:"sticky", top:0, height:"100vh" }}>
         <div style={{ padding:"26px 22px 18px", borderBottom:"1px solid rgba(255,255,255,0.06)" }}>
-          <div style={{ fontFamily:"Playfair Display,serif", color:C.gold, fontSize:"15px", fontWeight:"700", letterSpacing:"2px" }}>CONCIERGERIE</div>
-          <div style={{ fontSize:"9px", color:"rgba(255,255,255,0.22)", letterSpacing:"3px", marginTop:"2px" }}>CÔTE D'AZUR</div>
+          <div style={{ fontFamily:"Playfair Display,serif", color:C.gold, fontSize:"13px", fontWeight:"700", letterSpacing:"1px" }}>CC COZY HOST</div>
+          <div style={{ fontSize:"9px", color:"rgba(255,255,255,0.22)", letterSpacing:"3px", marginTop:"2px" }}>CONCIERGERIE</div>
         </div>
         <div style={{ padding:"14px 22px", borderBottom:"1px solid rgba(255,255,255,0.06)", display:"flex", alignItems:"center", gap:"10px" }}>
           <div style={{ width:"8px", height:"8px", borderRadius:"50%", background:sc, flexShrink:0 }} />
